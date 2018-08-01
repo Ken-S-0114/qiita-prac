@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B28103F6211166CE00A7FACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28103F5211166CE00A7FACB /* AppDelegate.swift */; };
-		B28103F8211166CE00A7FACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28103F7211166CE00A7FACB /* ViewController.swift */; };
 		B28103FB211166CF00A7FACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28103F9211166CF00A7FACB /* Main.storyboard */; };
 		B28103FD211166EB00A7FACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28103FC211166EB00A7FACB /* Assets.xcassets */; };
 		B2810400211166EB00A7FACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28103FE211166EB00A7FACB /* LaunchScreen.storyboard */; };
 		B281040B211166EC00A7FACB /* Qiita_pracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B281040A211166EC00A7FACB /* Qiita_pracTests.swift */; };
 		B2810416211166EC00A7FACB /* Qiita_pracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2810415211166EC00A7FACB /* Qiita_pracUITests.swift */; };
+		B281042421116D2E00A7FACB /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B281042321116D2E00A7FACB /* ArticleListViewController.swift */; };
 		F94FAA4D195AEA5998A4AE34 /* Pods_Qiita_prac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDA2F75B63F53C26D390385 /* Pods_Qiita_prac.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		97FCDE5B10EB14A5F4F55012 /* Pods-Qiita-prac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiita-prac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qiita-prac/Pods-Qiita-prac.debug.xcconfig"; sourceTree = "<group>"; };
 		B28103F2211166CE00A7FACB /* Qiita-prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qiita-prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28103F5211166CE00A7FACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B28103F7211166CE00A7FACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B28103FA211166CF00A7FACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28103FC211166EB00A7FACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28103FF211166EB00A7FACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		B2810411211166EC00A7FACB /* Qiita-pracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiita-pracUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2810415211166EC00A7FACB /* Qiita_pracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita_pracUITests.swift; sourceTree = "<group>"; };
 		B2810417211166EC00A7FACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B281042321116D2E00A7FACB /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				B28103F5211166CE00A7FACB /* AppDelegate.swift */,
-				B28103F7211166CE00A7FACB /* ViewController.swift */,
 				B28103F9211166CF00A7FACB /* Main.storyboard */,
 				B28103FC211166EB00A7FACB /* Assets.xcassets */,
 				B28103FE211166EB00A7FACB /* LaunchScreen.storyboard */,
 				B2810401211166EB00A7FACB /* Info.plist */,
+				B281042321116D2E00A7FACB /* ArticleListViewController.swift */,
 			);
 			path = "Qiita-prac";
 			sourceTree = "<group>";
@@ -323,8 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28103F8211166CE00A7FACB /* ViewController.swift in Sources */,
 				B28103F6211166CE00A7FACB /* AppDelegate.swift in Sources */,
+				B281042421116D2E00A7FACB /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
