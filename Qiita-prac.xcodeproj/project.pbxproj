@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28103F6211166CE00A7FACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28103F5211166CE00A7FACB /* AppDelegate.swift */; };
+		B28103F8211166CE00A7FACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28103F7211166CE00A7FACB /* ViewController.swift */; };
+		B28103FB211166CF00A7FACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28103F9211166CF00A7FACB /* Main.storyboard */; };
+		B28103FD211166EB00A7FACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28103FC211166EB00A7FACB /* Assets.xcassets */; };
+		B2810400211166EB00A7FACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28103FE211166EB00A7FACB /* LaunchScreen.storyboard */; };
+		B281040B211166EC00A7FACB /* Qiita_pracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B281040A211166EC00A7FACB /* Qiita_pracTests.swift */; };
+		B2810416211166EC00A7FACB /* Qiita_pracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2810415211166EC00A7FACB /* Qiita_pracUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2810407211166EB00A7FACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28103EA211166CE00A7FACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28103F1211166CE00A7FACB;
+			remoteInfo = "Qiita-prac";
+		};
+		B2810412211166EC00A7FACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28103EA211166CE00A7FACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28103F1211166CE00A7FACB;
+			remoteInfo = "Qiita-prac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B28103F2211166CE00A7FACB /* Qiita-prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qiita-prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28103F5211166CE00A7FACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B28103F7211166CE00A7FACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B28103FA211166CF00A7FACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B28103FC211166EB00A7FACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28103FF211166EB00A7FACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2810401211166EB00A7FACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2810406211166EB00A7FACB /* Qiita-pracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiita-pracTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B281040A211166EC00A7FACB /* Qiita_pracTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita_pracTests.swift; sourceTree = "<group>"; };
+		B281040C211166EC00A7FACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2810411211166EC00A7FACB /* Qiita-pracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiita-pracUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2810415211166EC00A7FACB /* Qiita_pracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita_pracUITests.swift; sourceTree = "<group>"; };
+		B2810417211166EC00A7FACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28103EF211166CE00A7FACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2810403211166EB00A7FACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B281040E211166EC00A7FACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28103E9211166CE00A7FACB = {
+			isa = PBXGroup;
+			children = (
+				B28103F4211166CE00A7FACB /* Qiita-prac */,
+				B2810409211166EB00A7FACB /* Qiita-pracTests */,
+				B2810414211166EC00A7FACB /* Qiita-pracUITests */,
+				B28103F3211166CE00A7FACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28103F3211166CE00A7FACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28103F2211166CE00A7FACB /* Qiita-prac.app */,
+				B2810406211166EB00A7FACB /* Qiita-pracTests.xctest */,
+				B2810411211166EC00A7FACB /* Qiita-pracUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28103F4211166CE00A7FACB /* Qiita-prac */ = {
+			isa = PBXGroup;
+			children = (
+				B28103F5211166CE00A7FACB /* AppDelegate.swift */,
+				B28103F7211166CE00A7FACB /* ViewController.swift */,
+				B28103F9211166CF00A7FACB /* Main.storyboard */,
+				B28103FC211166EB00A7FACB /* Assets.xcassets */,
+				B28103FE211166EB00A7FACB /* LaunchScreen.storyboard */,
+				B2810401211166EB00A7FACB /* Info.plist */,
+			);
+			path = "Qiita-prac";
+			sourceTree = "<group>";
+		};
+		B2810409211166EB00A7FACB /* Qiita-pracTests */ = {
+			isa = PBXGroup;
+			children = (
+				B281040A211166EC00A7FACB /* Qiita_pracTests.swift */,
+				B281040C211166EC00A7FACB /* Info.plist */,
+			);
+			path = "Qiita-pracTests";
+			sourceTree = "<group>";
+		};
+		B2810414211166EC00A7FACB /* Qiita-pracUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2810415211166EC00A7FACB /* Qiita_pracUITests.swift */,
+				B2810417211166EC00A7FACB /* Info.plist */,
+			);
+			path = "Qiita-pracUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28103F1211166CE00A7FACB /* Qiita-prac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B281041A211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-prac" */;
+			buildPhases = (
+				B28103EE211166CE00A7FACB /* Sources */,
+				B28103EF211166CE00A7FACB /* Frameworks */,
+				B28103F0211166CE00A7FACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qiita-prac";
+			productName = "Qiita-prac";
+			productReference = B28103F2211166CE00A7FACB /* Qiita-prac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2810405211166EB00A7FACB /* Qiita-pracTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B281041D211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-pracTests" */;
+			buildPhases = (
+				B2810402211166EB00A7FACB /* Sources */,
+				B2810403211166EB00A7FACB /* Frameworks */,
+				B2810404211166EB00A7FACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2810408211166EB00A7FACB /* PBXTargetDependency */,
+			);
+			name = "Qiita-pracTests";
+			productName = "Qiita-pracTests";
+			productReference = B2810406211166EB00A7FACB /* Qiita-pracTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2810410211166EC00A7FACB /* Qiita-pracUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2810420211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-pracUITests" */;
+			buildPhases = (
+				B281040D211166EC00A7FACB /* Sources */,
+				B281040E211166EC00A7FACB /* Frameworks */,
+				B281040F211166EC00A7FACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2810413211166EC00A7FACB /* PBXTargetDependency */,
+			);
+			name = "Qiita-pracUITests";
+			productName = "Qiita-pracUITests";
+			productReference = B2810411211166EC00A7FACB /* Qiita-pracUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28103EA211166CE00A7FACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "佐藤賢";
+				TargetAttributes = {
+					B28103F1211166CE00A7FACB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B2810405211166EB00A7FACB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B28103F1211166CE00A7FACB;
+					};
+					B2810410211166EC00A7FACB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B28103F1211166CE00A7FACB;
+					};
+				};
+			};
+			buildConfigurationList = B28103ED211166CE00A7FACB /* Build configuration list for PBXProject "Qiita-prac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28103E9211166CE00A7FACB;
+			productRefGroup = B28103F3211166CE00A7FACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28103F1211166CE00A7FACB /* Qiita-prac */,
+				B2810405211166EB00A7FACB /* Qiita-pracTests */,
+				B2810410211166EC00A7FACB /* Qiita-pracUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28103F0211166CE00A7FACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2810400211166EB00A7FACB /* LaunchScreen.storyboard in Resources */,
+				B28103FD211166EB00A7FACB /* Assets.xcassets in Resources */,
+				B28103FB211166CF00A7FACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2810404211166EB00A7FACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B281040F211166EC00A7FACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28103EE211166CE00A7FACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28103F8211166CE00A7FACB /* ViewController.swift in Sources */,
+				B28103F6211166CE00A7FACB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2810402211166EB00A7FACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B281040B211166EC00A7FACB /* Qiita_pracTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B281040D211166EC00A7FACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2810416211166EC00A7FACB /* Qiita_pracUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2810408211166EB00A7FACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28103F1211166CE00A7FACB /* Qiita-prac */;
+			targetProxy = B2810407211166EB00A7FACB /* PBXContainerItemProxy */;
+		};
+		B2810413211166EC00A7FACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28103F1211166CE00A7FACB /* Qiita-prac */;
+			targetProxy = B2810412211166EC00A7FACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28103F9211166CF00A7FACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28103FA211166CF00A7FACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B28103FE211166EB00A7FACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28103FF211166EB00A7FACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2810418211166EC00A7FACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2810419211166EC00A7FACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B281041B211166EC00A7FACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-prac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-prac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B281041C211166EC00A7FACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-prac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-prac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B281041E211166EC00A7FACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-pracTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-pracTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiita-prac.app/Qiita-prac";
+			};
+			name = Debug;
+		};
+		B281041F211166EC00A7FACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-pracTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-pracTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiita-prac.app/Qiita-prac";
+			};
+			name = Release;
+		};
+		B2810421211166EC00A7FACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-pracUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-pracUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qiita-prac";
+			};
+			name = Debug;
+		};
+		B2810422211166EC00A7FACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL94BNBL3S;
+				INFOPLIST_FILE = "Qiita-pracUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken.Qiita-pracUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qiita-prac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28103ED211166CE00A7FACB /* Build configuration list for PBXProject "Qiita-prac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2810418211166EC00A7FACB /* Debug */,
+				B2810419211166EC00A7FACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B281041A211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-prac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B281041B211166EC00A7FACB /* Debug */,
+				B281041C211166EC00A7FACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B281041D211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-pracTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B281041E211166EC00A7FACB /* Debug */,
+				B281041F211166EC00A7FACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2810420211166EC00A7FACB /* Build configuration list for PBXNativeTarget "Qiita-pracUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2810421211166EC00A7FACB /* Debug */,
+				B2810422211166EC00A7FACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28103EA211166CE00A7FACB /* Project object */;
+}
